@@ -284,7 +284,7 @@
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-isysroot \"$(SDKROOT)\" -I\"$(SDKROOT)/System/Library/Frameworks/Kernel.framework/Headers\" -I\"$(SRCROOT)/../common\" -std=gnu99";
 				INFOPLIST_PREPROCESS = YES;
 				INFOPLIST_PREPROCESSOR_DEFINITIONS = KERNEL;
-				MODULE_NAME = com.github.osxfuse.filesystems.osxfuse;
+				MODULE_NAME = com.ThinAir.filesystems.thinfs;
 				MODULE_START = fusefs_start;
 				MODULE_STOP = fusefs_stop;
 				MODULE_VERSION = "$(OSXFUSE_VERSION)";
@@ -338,7 +338,7 @@
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-isysroot \"$(SDKROOT)\" -I\"$(SDKROOT)/System/Library/Frameworks/Kernel.framework/Headers\" -I\"$(SRCROOT)/../common\" -std=gnu99";
 				INFOPLIST_PREPROCESS = YES;
 				INFOPLIST_PREPROCESSOR_DEFINITIONS = KERNEL;
-				MODULE_NAME = com.github.osxfuse.filesystems.osxfuse;
+				MODULE_NAME = com.ThinAir.filesystems.thinfs;
 				MODULE_START = fusefs_start;
 				MODULE_STOP = fusefs_stop;
 				MODULE_VERSION = "$(OSXFUSE_VERSION)";
